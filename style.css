@@ -1,0 +1,701 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500;1,600&family=PT+Sans:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+/*navbar css*/
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 70px;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-color: white;
+    position: fixed;
+    box-shadow:1px 1px 3px rgba(212, 201, 201, 0.54);
+    z-index:990;
+}
+.home .logo img{
+    width: 80%;
+    height: auto;
+}
+.home .menu{
+    position: absolute;
+    left: 80%;
+}
+.home .menu{
+    font-size: 2rem;
+}
+.home .social-icons{
+    display: flex;
+    position: absolute;
+    left: 40%;
+    align-items: center;
+    position: relative;
+    width: 50%;
+}
+.home .social-icons .icon{
+  margin: 0 15px;
+}
+.home .social-icons .icon a{
+    color: black;
+}
+/*navbar css*/
+/*mani1 css*/
+.main1{
+    background: linear-gradient(rgba(250, 250, 250, 0.8), rgba(250, 250, 250, 0.8)), url('images/pexels-karolina-grabowska-8092315.jpg') center center
+    fixed no-repeat;
+   height: 1000px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-size: cover;
+   flex-direction: column;
+   position: relative;
+   margin-bottom: 50px;
+}
+.main1 .name_agence{
+    position: absolute;
+    top: 170px;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.main1 .name_text{
+    position: absolute;
+    top: 250px;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+.main1 hr{
+    position: absolute;
+    width: 5%;
+    text-align: center;
+    top: 325px;
+    border: transparent;
+    height: 1px;
+    background-color: black;
+}
+.main1 .mini_text{
+    position: absolute;
+    top: 360px;
+    text-align: center;
+    width: 40%;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.main1 .nbre_agence{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10%;
+    width: 100%;
+    top: 800px;
+    padding: 0 70px;
+}
+.main1 .nbre_agence .nbre1{
+  text-align: center;
+}
+.main1 .nbre_agence .nb1{
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+.main1 .nbre_agence .nbre_texte{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+/*mani1 css*/
+/*commentaire css*/
+.expertises{
+    background: url('images/biwalogo-nos-expertises.png') center center
+    fixed no-repeat;
+   height: 600px;
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   background-size: 98%;
+   flex-direction: column;
+   position: relative;
+   margin-bottom: 50px;
+   position: relative;
+   padding: 0 70px;
+}
+.expertises .title_exp{
+    position: absolute;
+    left: 70px;
+    top: 0;
+    font-size: 3rem;
+}
+.expertises .nos_exper1{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 40px;
+}
+.expertises .nos_exper1 .nos2{
+    width: 35%;
+    text-align: justify;
+}
+.expertises .nos_exper1 .icone{
+    margin-bottom: 40px;
+}
+.expertises .nos_exper1 .title_nos{
+    margin-bottom: 25px;
+    font-size: 1.7rem;
+    font-weight: 100;
+}
+.expertises .nos_exper1 .commentaire{
+    font-size: 18px;
+    line-height: 1.5;
+    word-spacing: 3px;
+}
+.expertises .nos_exper2{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.expertises .nos_exper2 .nos2{
+    width: 35%;
+    text-align: justify;
+}
+.expertises .nos_exper2 .icone{
+    margin-bottom: 40px;
+}
+.expertises .nos_exper2 .title_nos{
+    margin-bottom: 25px;
+    font-size: 1.7rem;
+    font-weight: 100;
+}
+.expertises .nos_exper2 .commentaire{
+    font-size: 18px;
+    line-height: 1.5;
+    word-spacing: 3px;
+}
+.expertises hr{
+    position: absolute;
+    width: 100%;
+    top: 720px;
+    border: transparent;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 50px;
+}
+.fa-solid{
+    font-size: 35px;
+}
+/*commentaire css*/
+/*projet css*/
+.projet{
+    padding: 50px 70px;
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.projet .projet_titel{
+   font-size: 1.8rem;
+   position: absolute;
+   top: 130px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: 100;
+}
+.projet .btn{
+    position: absolute;
+   border: 1px solid transparent;
+   width: 25%;
+   top: 250px;
+   height: 70px;
+   background-color: #ccc;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.projet .btn a{
+   text-decoration: none;
+   color: black;
+   font-size: 2.1rem;
+}
+.projet .btn:hover{
+   background-color: #797878;
+}
+.projet .realisateur{
+    top: 450px;
+    position: absolute;
+    left: 70px;
+    font-size: 4rem;
+}
+.projet .projet_realise{
+    display: grid;
+    position: absolute;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    top: 550px;
+    padding: 0 70px;
+}
+.image1{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 31.12%);
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+.image2{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 31.12%);
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+.pro_img{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.pro_img2{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.pro_img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.pro_img2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.pro_img:hover img{
+    transform: scale(1.5) rotate(5deg);
+}
+.pro_img2:hover img{
+    transform: scale(1.5) rotate(5deg);
+}
+.pro_img .pro_imf_text{
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    transform: translateY(100%);
+    transition: 0.5s;
+}
+.pro_img2 .pro_imf_text2{
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    transform: translateY(100%);
+    transition: 0.5s;
+}
+.pro_img:hover .pro_imf_text{
+    transform: translateY(0);
+}
+.pro_img2:hover .pro_imf_text2{
+    transform: translateY(0);
+}
+/*projet css*/
+/*formulaire css*/
+.form_user{
+    padding: 30px 70px;
+    width: 100%;
+    height: 660px;
+    margin-top: 180px;
+    background-color: #eeecec;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    position: relative;
+}
+.form_user .left{
+    width: 100%;
+}
+.form_user .left .left_title{
+    position: absolute;
+    margin-top: 0;
+    font-size: 3.8rem;
+    left: 70px;
+    margin-bottom: 100px;
+}
+.form_user .left form{
+    position: relative;
+    top: 120px;
+}
+.form_user .left form .from12{
+    margin-bottom: 15px;
+}
+.form_user .left form .from12 input{
+    width: 100%;
+    height: 45px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+.form_user .left form .from12 textarea{
+    width: 100%;
+    height: 220px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+.form_user .left form .coche{
+    margin: 20px 0;
+    font-size: 20px;
+}
+.form_user .left form .envoie input{
+    padding: 13px 40px;
+    font-size: 18px;
+    border: 2px solid black;
+}
+.form_user .right{
+    position: relative;
+    margin-top: 110px;
+}
+.form_user .right p{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.form_user .right .right_title{
+    font-size: 2.1rem;
+    text-transform: uppercase;
+}
+/*formulaire css*/
+/*footer css*/
+footer{
+    padding: 10px 70px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    position: relative;
+}
+footer .content_footer p{
+    font-size: 16px;
+    color: #fff;
+}
+.footer_social-icons{
+    position: absolute;
+    display: flex;
+    right: 70px;
+}
+.footer_social-icons .icons{
+  margin: 0 15px;
+}
+footer .footer_social-icons .icons a{
+    color: #ccc;
+}
+/*footer css*/
+/*responsive css*/
+@media (max-width:778px) {
+    /*navbar css*/
+    .home .logo img{
+        width: 70%;
+        margin-left: -25px;
+    }
+    .home .menu{
+        position: absolute;
+        left: 80%;
+    }
+    .home .menu{
+        font-size: 2.5rem;
+    }
+    .home .social-icons{
+       display: none;   
+    }
+    /*navbar css*/   
+    /*mani1 css*/
+    .main1{
+        height: 1700px;
+    }
+    .main1 .name_agence{
+        top: 190px;
+        font-size: 3.5rem;
+    }
+    .main1 .name_text{
+        top: 280px;
+        font-size: 2.5rem;
+        width: 80%;
+        word-spacing: 5px;
+    }
+    .main1 hr{
+        position: absolute;
+        width: 10%;
+        top: 420px;
+    }
+    .main1 .mini_text{
+        position: absolute;
+        top: 460px;
+        width: 80%;
+    }
+    .main1 .nbre_agence{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .main1 .nbre_agence .nbre1{
+        margin: 50px 0;
+    }
+    .main1 .nbre_agence .nb1{
+        font-size: 3.8rem;
+    }
+    .main1 .nbre_agence .nbre_texte{
+        font-size: 2.1rem;
+    }
+    /*mani1 css*/   
+    /*commentaire css*/
+    .expertises{
+        background: url('images/biwalogo-nos-expertises.png') center left
+        fixed no-repeat;
+        background-size: 100%;
+    }
+    .expertises .title_exp{
+        position: absolute;
+        left: 70px;
+        top: 0;
+        font-size: 3rem;
+    }
+    .expertises .nos_exper1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 500px;
+    }
+    .expertises .nos_exper1 .nos2{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .expertises .nos_exper1 .icone{
+        margin-bottom: 25px;
+    }
+    .expertises .nos_exper1 .title_nos{
+        margin-bottom: 10px;
+    }
+    .expertises .nos_exper2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin-top: -50px;
+    }
+    .expertises .nos_exper2 .nos2{
+        width: 100%;
+    }
+    .expertises .nos_exper2 .icone{
+        margin-bottom: 25px;
+    }
+    .expertises .nos_exper2 .title_nos{
+        margin-bottom: 10px;
+    }
+    .expertises hr{
+        top: 950px;
+    }
+    /*commentaire css*/   
+    /*projet css*/
+    .projet{
+        padding: 50px 70px;
+        width: 100%;
+        height: 850px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+    }
+    .projet .projet_titel{
+        top: 350px;
+        font-size: 3rem;
+    }
+    .projet .btn{
+        width: 85%;
+        top: 430px;
+    }
+    .projet .realisateur{
+        top: 580px;
+        position: absolute;
+        left: 40px;
+        font-size: 2.5rem;
+    }
+    .projet .projet_realise{
+        top: 650px;
+        padding: 0 40px;
+    }
+    .image1{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .image2{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .pro_img{
+        width: 100%;
+        height: 150px;
+    }
+    .pro_img2{
+        width: 100%;
+        height: 150px;
+    }
+    .pro_img img{
+        width: 100%;
+        height: 100%;
+    }
+    .pro_img2 img{
+        width: 100%;
+        height: 100%;
+    }
+    /*projet css*/
+        /*formulaire css*/
+    .form_user{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        padding: 10px;
+        height: 1000px;
+    }
+    .form_user .left .left_title{
+        position: absolute;
+        margin-top: 150px;
+        font-size: 3.8rem;
+        left: 10px;
+        margin-bottom: 100px;
+    }
+    .form_user .left form{
+        position: relative;
+        top: 230px;
+    }
+
+    .form_user .right{
+        position: relative;
+        margin-top: 230px;
+        width: 100%;
+        left: 10px;
+    }
+    /*formulaire css*/
+
+    /*footer css*/
+    footer{
+        padding: 10px;
+    }
+    .footer_social-icons{
+        right: 20px;
+    }
+    .footer_social-icons .icons{
+    margin: 0 5px;
+    }
+    /*footer css*/
+}
+@media (max-width: 480px) {
+    /*main1 css*/
+    .main1{
+       height: 1800px;
+    }
+    .main1 hr{
+        width: 15%;
+    }
+    .main1 .mini_text{
+        width: 90%;
+    }
+    /*main1 css*/
+    /*commentaire css*/
+    .expertises{
+        height: 700px;
+        padding: 30px;
+    }
+    .expertises .title_exp{
+        position: absolute;
+        left: 30px;
+    }
+    .expertises hr{
+        top: 1050px;
+    }
+    /*commentaire css*/   
+    /*projet css*/
+    .projet{
+        padding: 50px 30px;
+    }
+    .projet .projet_titel{
+        top: 320px;
+    }
+    /*projet css*/
+    /*formulaire css*/
+    .form_user{
+        padding: 10px;
+        height: 990px;
+    }
+    .form_user .left .left_title{
+        margin-top: 110px;
+    }
+    .form_user .left form{
+        top: 200px;
+    }
+    /*formulaire css*/
+    /*footer css*/
+    footer{
+        top: 0;
+        display: grid;
+        grid-template-columns: 1fr 20%;
+        gap: 30px;
+    }
+    .footer_social-icons .icons{
+    margin: 0 5px;
+    }
+    /*footer css*/
+    .pro_img .pro_imf_text{
+       font-size: 10px;
+    }
+    .pro_img2 .pro_imf_text2{
+       font-size: 10px;
+    }
+}
+/*responsive css*/
+
